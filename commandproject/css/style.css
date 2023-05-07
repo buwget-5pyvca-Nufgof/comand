@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@font-face {
+  font-family: "Panton";
+  src: url("../fonts/Panton-Bold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button {
+  font-size: 15px;
+  text-decoration: none;
+  background-color: #38BCEA;
+  color: white;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+.tel {
+  color: #BBBBBB;
+  border: 0;
+}
+
+.controltitle {
+  background-image: linear-gradient(84.27deg, #E6F2FF 0%, #FAF1ED 100%);
+  padding-left: 100px;
+  margin-top: 135px;
+}
+
+.title {
+  padding-top: 62px;
+}
+
+.subtitle {
+  width: 50%;
+  padding-top: 35px;
+  padding-bottom: 38px;
+}
+
+.personal {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 30% 30%;
+  gap: 5%;
+  padding-bottom: 33px;
+}
+
+.checkbox {
+  padding-bottom: 63px;
+}
+
+.title-img {
+  position: absolute;
+  bottom: 230px;
+  right: 0px;
+  width: 600px;
+  height: 600px;
+}
+
+h1 {
+  font-family: "Panton";
+  font-style: normal;
+}
+
+.controlcontriner {
+  padding-left: 100px;
+  margin-top: 135px;
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.imgclinic {
+  bottom: 5px;
+  right: 0px;
+  width: 500px;
+  height: 300px;
+}/*# sourceMappingURL=style.css.map */
